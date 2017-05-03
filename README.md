@@ -2,9 +2,9 @@
 
 _Porque nos fascinan los autómatas, las cosas bonitas y la vida._
 
-##Cómo correr el código:
+## Cómo correr el código:
 
-###Compilar:
+### Compilar:
 
 Correr el script para Compilar
 
@@ -14,7 +14,7 @@ Esto debería compilar el código fuente en la carpeta code.
 (Este script se debe de ir actualizando)
 
 
-###Depurar o limpiar código compilado
+### Depurar o limpiar código compilado
 
 Es importante limpiar el código compilado para no agregarlo al repositorio,
 como son archivos binarios y además pueden ser de distinitas versiones, no es algo
