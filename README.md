@@ -25,3 +25,12 @@ Esto se hace con el script para Depurar
     bash cleanUp.sh
 
 Este script borra todos los archivos .class del directorio code.
+
+
+### Correr el código
+
+En el directorio code se debe ejecutar
+
+    java nombreDelArchivo
+
+para poder ejecutar el _main method_ de esa clase.
