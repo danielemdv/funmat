@@ -1,0 +1,33 @@
+Estimado Alumnos:
+
+   El proyecto parcial y final se compondrán de la siguiente manera:
+      Ambos proyectos se refieren al diseño y aplicación de un programa
+que:
+         a) Lea un archivo con las especificaciones de un autómata
+no-determinístico (ver documento anexo .DOC).
+         b) Convierta este autómata en uno determinístico.
+         c) Minimice el autómata
+         d) Encuentre la expresión regular.
+
+El proyecto consta de dos partes:
+   a) Una parte formal en la cual se describa la solución del problema.
+Deberá entregarse un documento que describa el procedimiento seguido, con
+la fundamentación téorica correspondiente, un listado del programa y un
+ejemplo de aplicación.
+   La calificación del proyecto parcial dependerá de esta entrega. Este
+documento deberá ser entregado el 17 de mayo en la clase.
+
+   b) Una parte práctica que consistirá en la aplicación de sus programas
+el día del examen final. Esta será su calificación del proyecto final.
+Para ese día les sugiero que traigan sus PC's listas para leer los
+archivos y generar (en un archivo) las soluciones encontradas que deberán
+enviar al correo del curso.
+
+--------
+
+   En ambos casos el examen tendrá un puntaje máximo de 120/100. Los
+primeros 100 puntos dependerán de resolver adecuadamente los incisos a),
+b) y c); los últimos 20 puntos dependerán de la solición del inciso d). Es
+decir, tienen 20 puntos extras al resolver el inciso d). Si solo resuelven
+los primeros tres incisos (y se desarrollaran perfectamente) tendrán
+"100". Pero hay 20 puntos adicionales si resuelven el inciso d).
