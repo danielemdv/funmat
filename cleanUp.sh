@@ -1,0 +1,2 @@
+cd code
+rm *.class
