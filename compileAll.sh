@@ -1,2 +1,2 @@
-cd code 
-javac Automata.java
+cd code
+javac Automata.java Estado.java

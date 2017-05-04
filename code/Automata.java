@@ -3,8 +3,8 @@ public class Automata{
 /*
 Como atributos debe tener:
 
--Tabla de estados y transiciones
-[Estado actual] //Opcional
+-Diccionario de objetos estado, la llave (para la entrada del diccionaro) sera la letra del estado
+-Estado actual
 
 
 Como funciones creo que debe tener:
@@ -14,6 +14,16 @@ Como funciones creo que debe tener:
  la cantidad de input que se le de.
 
 */
+
+Estado estadoActual;
+
+public Automata(){
+/*
+Recibira su diccionario ya procesado y el estado actual se pondra en A
+(la primera entrada)
+*/
+
+}
 
 
 
