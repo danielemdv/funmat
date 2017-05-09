@@ -74,7 +74,6 @@ public static void main(String[] args){
     mapestados.put(e.id,e); //Agregar el estado al HashMap
   }
 
-  System.out.println(mapestados.toString());
 
   /*Ir checando los estados que son de aceptacion.
     En caso de que uno sea, con el HashMap lo encontramos
@@ -90,9 +89,12 @@ public static void main(String[] args){
     }
   }
 
+  //checando que todo bien....
   for (int i = 0; i < alestados.size() ;i++ ) {
     System.out.println(mapestados.get(alfabeto[i]).toString());
   }
+
+  Automata a = new Automata(mapestados);
 
 
 

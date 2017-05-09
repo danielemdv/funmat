@@ -1,4 +1,7 @@
+import java.util.HashMap;
+
 public class Automata{
+
 
 /*
 Como atributos debe tener:
@@ -15,13 +18,12 @@ Como funciones creo que debe tener:
 
 */
 
-Estado estadoActual;
+public String estadoActual;
+public HashMap<String, Estado> estados;
 
-public Automata(){
-/*
-Recibira su diccionario ya procesado y el estado actual se pondra en A
-(la primera entrada)
-*/
+public Automata(HashMap<String, Estado> estados){
+  this.estados = estados;
+  estadoActual = "A"; //Segun el prof esto siempre sera asi.
 
 }
 

@@ -12,7 +12,7 @@ public Estado(String id){
 }
 
 
-//chance no se acaba usando este constructor
+//chance no se acaba usando este constructor. Lo dejo porque pueque
 public Estado(String id,boolean edoAceptacion, String x0destino, String x1destino){
   this.id = id;
   this.edoAceptacion = edoAceptacion;
