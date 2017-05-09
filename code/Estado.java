@@ -1,19 +1,19 @@
 public class Estado{
 
-public char id;
+public String id;
 public boolean edoAceptacion;
-public char x0destino;
-public char x1destino;
+public String x0destino;
+public String x1destino;
 
 //Constructor mas simple (ideologia de ir armando el estado poco a poco)
-public Estado(char id){
+public Estado(String id){
   this.id = id;
   edoAceptacion = false;
 }
 
 
 //chance no se acaba usando este constructor
-public Estado(char id,boolean edoAceptacion, char x0destino, char x1destino){
+public Estado(String id,boolean edoAceptacion, String x0destino, String x1destino){
   this.id = id;
   this.edoAceptacion = edoAceptacion;
   this.x0destino = x0destino;

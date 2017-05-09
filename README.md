@@ -29,8 +29,8 @@ Este script borra todos los archivos .class del directorio code.
 
 ### Correr el código
 
-En el directorio code se debe ejecutar
+En el directorio del proyecto correr el siguiente script:
 
-    java nombreDelArchivo
+    bash runit.sh
 
-para poder ejecutar el _main method_ de esa clase.
+Este correrá el script de compilación y ejecutará Main.class
