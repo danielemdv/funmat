@@ -1,0 +1,22 @@
+1. Que lea las tablas correctamente e interprete los valores
+2. Que inizialice los estados correctamente
+3. Revisar que los estados tengan multiples estado destino (guardarlo)
+4. Inicializar un "automata" con un Hashmap "El de los estados que ya pasaron por las fases anteriores"
+5. Que el automata sepa si es determinista o no determinista (leyendo el hashmap)
+NO ES DETERMINISTA
+6. Convertirlo en determinista
+    6.1 "De los estados que aparecen en la primera tabla, creamos los METAESTADOS o estados concatenados".
+    6.2 Creamos la nueva tabla dependiendo de los mapeos de la primera
+    6.3 Verificar si se agregan los estados vacíos.
+    
+
+ES DETERMINISTA
+7. Reducirlo (guardar en el alfabeto griego los nuevos estados con sus destinos)( "Agrupar")
+8. Guardar primero por su numero binario.
+9. Luego agrupar por orden en num binario.
+10. Se repite orden anterior?o ya he guardado anteriores
+    no, no 11. Guardar en 1. Regresa a 10    
+    no, si 12. Guardar en 2. Regresa a 10
+no, si.
+13. Se repite el ante anterior?
+14. Guardar en 3
